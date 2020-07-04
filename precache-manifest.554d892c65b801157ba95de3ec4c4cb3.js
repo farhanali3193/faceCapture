@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96dc69139004cbb47b0f8605ca02dc7d",
+    "revision": "80050444050bd5e9c16892022130dd39",
     "url": "/faceCapture/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/faceCapture/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "5a67644c623f0fab36d9",
+    "revision": "35f92b02966bac6acdb1",
     "url": "/faceCapture/static/css/main.6bf00475.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/faceCapture/static/js/2.8d149484.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a67644c623f0fab36d9",
-    "url": "/faceCapture/static/js/main.7f481cfd.chunk.js"
+    "revision": "35f92b02966bac6acdb1",
+    "url": "/faceCapture/static/js/main.ae1c9da2.chunk.js"
   },
   {
     "revision": "2236af67f8cd2c9c984b",
