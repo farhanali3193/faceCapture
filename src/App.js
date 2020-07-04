@@ -7,7 +7,6 @@ import FaceRecognition from './Components/FaceRecognition/FaceRecognition'
 import SignIn from './Components/SignIn/SignIn'
 import Register from './Components/Register/Register'
 import Particles from 'react-particles-js';
-import Clarifai from 'clarifai';
 import './App.css';
 
 
@@ -78,7 +77,7 @@ class App extends React.Component{
 
   onSubmit =() =>{
     this.setState({imageUrl: this.state.input})
-    fetch('http://localhost:3000/imageUrl', {
+    fetch('https://lovely-glacier-bay-32347.herokuapp.com/imageUrl', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body:  JSON.stringify({
@@ -88,7 +87,7 @@ class App extends React.Component{
     .then(response => response.json())
       .then(response =>{
         if(response){
-          fetch('http://localhost:3000/image', {
+          fetch('https://lovely-glacier-bay-32347.herokuapp.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body:  JSON.stringify({
