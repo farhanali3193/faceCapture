@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/faceCapture/static/css/main.6bf00475.chunk.css",
+    "main.js": "/faceCapture/static/js/main.f8a8de60.chunk.js",
+    "main.js.map": "/faceCapture/static/js/main.f8a8de60.chunk.js.map",
+    "runtime-main.js": "/faceCapture/static/js/runtime-main.638c6d07.js",
+    "runtime-main.js.map": "/faceCapture/static/js/runtime-main.638c6d07.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/faceCapture/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.8d149484.chunk.js": "/faceCapture/static/js/2.8d149484.chunk.js",
+    "static/js/2.8d149484.chunk.js.map": "/faceCapture/static/js/2.8d149484.chunk.js.map",
+    "index.html": "/faceCapture/index.html",
+    "precache-manifest.43fc17309e3868448c7f025eea813141.js": "/faceCapture/precache-manifest.43fc17309e3868448c7f025eea813141.js",
+    "service-worker.js": "/faceCapture/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/faceCapture/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.6bf00475.chunk.css.map": "/faceCapture/static/css/main.6bf00475.chunk.css.map",
+    "static/js/2.8d149484.chunk.js.LICENSE.txt": "/faceCapture/static/js/2.8d149484.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.638c6d07.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.8d149484.chunk.js",
+    "static/css/main.6bf00475.chunk.css",
+    "static/js/main.f8a8de60.chunk.js"
+  ]
+}
