@@ -49,6 +49,7 @@ class SignIn extends React.Component {
                                     name="email-address"  
                                     id="email-address" 
                                     placeholder='Email'
+                                    required
                                     onChange = {this.onEmailChange}
                                 />
                             </div>
@@ -60,6 +61,7 @@ class SignIn extends React.Component {
                                     name="password"  
                                     id="password"
                                     placeholder='Password'
+                                    required
                                     onChange = {this.onPasswordChange}
                                 />
                             </div>

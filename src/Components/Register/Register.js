@@ -23,22 +23,24 @@ class Register extends React.Component{
     }
 
     onSubmitRegister = () => {
-        fetch('https://lovely-glacier-bay-32347.herokuapp.com/register',{
-            method: 'post',
-            headers: {'Content-Type': 'application/json'},
-            body:  JSON.stringify({
-                email: this.state.email,
-                password: this.state.password,
-                name: this.state.name  
+        if(this.state.password.length>5 && this.state.email.includes('@') && this.state.email.includes('.com')){
+            fetch('https://lovely-glacier-bay-32347.herokuapp.com/register',{
+                method: 'post',
+                headers: {'Content-Type': 'application/json'},
+                body:  JSON.stringify({
+                    email: this.state.email,
+                    password: this.state.password,
+                    name: this.state.name  
+                })
             })
-        })
-            .then(resp=>resp.json())
-            .then(user=> {
-                if (user.id){
-                    this.props.loadUser(user);
-                    this.props.onRouteChange('home');
-                }
-            })
+                .then(resp=>resp.json())
+                .then(user=> {
+                    if (user.id){
+                        this.props.loadUser(user);
+                        this.props.onRouteChange('home');
+                    }
+                })
+        }
     }
     
     render(){
@@ -56,6 +58,7 @@ class Register extends React.Component{
                                     name="name"  
                                     id="name" 
                                     placeholder='Name'
+                                    required
                                     onChange = {this.onNameChange}
                                 />
                             </div>
@@ -67,6 +70,7 @@ class Register extends React.Component{
                                     name="email-address"  
                                     id="email-address" 
                                     placeholder='Email'
+                                    required
                                     onChange = {this.onEmailChange}
                                 />
                             </div>
@@ -78,6 +82,7 @@ class Register extends React.Component{
                                     name="password"  
                                     id="password"
                                     placeholder='Password'
+                                    required
                                     onChange = {this.onPasswordChange}
                                 />
                             </div>
